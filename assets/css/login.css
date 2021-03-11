@@ -3,7 +3,7 @@ body, html {
     border: 0;
     width: 100%;
     height: 100%;
-    background: url(/大事件后台管理系统/assets/images/login_bg.jpg) no-repeat center;
+    background: url(/big_event/assets/images/login_bg.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -19,7 +19,7 @@ body, html {
 
 .box-title {
     height: 60px;
-    background: url(/大事件后台管理系统/assets/images/login_title.png) no-repeat center;
+    background: url(/big_event/assets/images/login_title.png) no-repeat center;
 }
 
 .box-reg {
