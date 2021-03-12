@@ -45,8 +45,8 @@ function renderVatar(user) {
   $("#welcome").html("欢迎&nbsp;&nbsp;" + name);
   //获取用户头像
   if (user.user_pic !== null) {
-    $(".layui-nav-img").attr("src", suer.user_pic).show();
-    $(".text-avatar").hinde();
+    $(".layui-nav-img").attr("src", user.user_pic).show();
+    $(".text-avatar").hide();
   } else {
     $(".layui-nav-img").hide();
     let first = name[0].toUpperCase();
